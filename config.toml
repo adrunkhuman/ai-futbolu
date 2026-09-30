@@ -1,0 +1,112 @@
+# Model ids verified against provider model lists on 2026-09-29.
+
+[episode]
+target_minutes = 18
+hard_max_minutes = 20     # closing is forced once this many minutes of speech are reached
+words_per_minute = 150    # Polish speech pace, used to estimate audio length from word count; calibrate on the first ElevenLabs render
+closing_reserve_words = 500   # room left for host nudge + guests' last words + farewell
+max_turns = 150
+turn_max_words = 170          # longer turns are cut at a sentence boundary (models ignore the prompt's ~130)
+closing_turn_max_words = 70   # guests' last words and intro replies
+
+[show]
+topic = "Reprezentacja Polski po porażce ze Szwecją: co poszło nie tak, mecz z Rumunią i dalsze kroki w grupie, oraz sytuacja selekcjonera Jana Urbana: zostawić czy zwolnić?"
+agenda = "1) mecz ze Szwecją: co zawiodło; 2) mecz z Rumunią i dalsze kroki w grupie; 3) selekcjoner Urban: zostawić czy zwolnić"
+name = "AI Futbolu"    # spoken "Ej Aj Futbolu" in TTS (see voices alias); parody of "Futbol Futbolu"
+
+[director]
+enabled = true              # Jev decides next speaker, interruptions, and move hints; off = rule-based turn taking
+interrupt_scale = 0.8       # P(interrupt) = Jev's probability * this
+min_gap_since_interrupt = 2 # at least this many turns between interruptions
+temperature = 1.0           # <1 sharper next-speaker picks, >1 more random
+steer_threshold = 0.65      # P(discussion drifted off the national team) that makes the host pull it back
+italy_threshold = 0.6       # Kierski's one Italian anecdote: needs Jev's "fits here" probability above this
+italy_late_turn = 14        # after this many turns the threshold drops to 0.4
+italy_force_turn = 22       # after this many turns it is told regardless
+steer_cooldown = 5          # turns between steering interventions
+max_silence_turns = 6       # a panelist silent this long is brought in next
+stale_threshold = 0.8       # "they keep repeating the point" nudge: rare and late on purpose
+stale_min_turns = 8
+move_min_confidence = 0.5   # apply Jev's suggested move hint only when it is this confident
+
+# `aliases` are the forms in which colleagues address a seat (Polish vocative etc.);
+# they drive who speaks next.
+[[seat]]
+name = "Radecki"
+research_angle = "co i kto mówi w mediach oraz jakie są oczekiwania wobec kadry i selekcjonera"
+intro = "prowadzący, dziennikarz z ponad dwudziestoletnim stażem w radiu i telewizji"
+voice_id = "oiBBHvHDcGtEJmvaMvD3"
+full_name = "Michał Radecki"
+aliases = ["Michał", "Michale", "Radecki", "Radecku"]
+host = true
+provider = "claude"
+model = "claude-sonnet-5-5"
+persona = "personas/radecki.md"
+
+[[seat]]
+name = "Kierski"
+storyteller = true
+research_angle = "przebieg meczu ze Szwecją z perspektywy piłkarzy, szatnia, wypowiedzi zawodników po meczu"
+intro = "były pomocnik, dwukrotny reprezentant Polski, po drodze także epizod we Włoszech"
+voice_id = "aNSI4hcccleQ7NpVwxbz"
+full_name = "Robert „Bolo” Kierski"
+aliases = ["Robert", "Robercie", "Bolo", "Kierski", "Kierskiego"]
+provider = "grok"
+model = "default"   # currently grok-4.7-build
+persona = "personas/kierski.md"
+
+[[seat]]
+name = "Cieślak"
+research_angle = "taktyka, ustawienie, statystyki meczu, stałe fragmenty, przewidywany skład na Rumunię"
+intro = "analityk taktyczny, autor bloga i podcastu, kibic Lecha"
+voice_id = "VWGVtVIIKbAKQS5GLWCE"
+full_name = "Adrian Cieślak"
+aliases = ["Adrian", "Adrianie", "Cieślak", "Cieślaku"]
+provider = "openrouter"
+model = "deepseek/deepseek-v4.1-flash"
+persona = "personas/cieslak.md"
+
+[[seat]]
+name = "Rybarczyk"
+research_angle = "felietony i komentarze doświadczonych dziennikarzy, kontekst historyczny, dotychczasowa praca Urbana i jego przyszłość"
+intro = "felietonista, ponad czterdzieści lat w gazetach, radiu i telewizji"
+voice_id = "fZhvQ1uLK8aLWsUhQnwa"
+full_name = "Jerzy Rybarczyk"
+aliases = ["Jerzy", "Jerzy", "Rybarczyk", "Rybarczyku"]
+provider = "codex"
+model = "gpt-5.6-sol"
+persona = "personas/rybarczyk.md"
+
+# Video stage (video.py): Hedra Character 3 lip-syncs close-ups; the wide shot is silent "people moving".
+[video]
+resolution = "540p"             # Hedra renders this tier at 832x480
+size = [832, 480]
+fps = 25
+price_per_second = 0.025        # USD, hedra-character-3 at 540p (`hedra-cli models get --model hedra-character-3`)
+long_turn_s = 25                # turns longer than this are lip-synced only at the start and end...
+head_s = 10                     # ...first head_s seconds
+tail_s = 5                      # ...and last tail_s seconds; the middle cuts to the wide shot
+opening_wide_s = 3              # the episode opens on the wide shot
+closing_wide_s = 4              # and ends on it
+concurrency = 4
+talk_prompt = "A TV football pundit in a studio speaks to the other guests: natural lip movement, subtle head movement, blinking and small expressions. Static camera."
+ambient_s = 10
+ambient_prompts = [
+    "Four pundits sit at a TV panel desk listening to each other. Nobody speaks. They blink, breathe, shift slightly, glance at one another, one takes a note, one nods. Static locked-off camera.",
+    "Four pundits at a TV panel desk follow a conversation: they glance left and right, lean a little, adjust their posture, one sips water, one leafs through papers. Static locked-off camera.",
+    "Four pundits at a TV panel desk listen attentively: one nods slowly, one writes a note, one looks down at his papers, one raises a hand slightly. Static locked-off camera.",
+]
+
+# 16:9 crop of each portrait (full width, crop_y = top row of the 1122x631 window)
+[video.portraits.Radecki]
+file = "assets/radecki.png"
+crop_y = 75
+[video.portraits.Kierski]
+file = "assets/kierski.png"
+crop_y = 90
+[video.portraits."Cieślak"]
+file = "assets/cieslak.png"
+crop_y = 100
+[video.portraits.Rybarczyk]
+file = "assets/rybarczyk.png"
+crop_y = 100

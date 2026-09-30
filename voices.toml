@@ -1,0 +1,52 @@
+# Voice bible for the audio stage (voice.py). Voice ids live on the seats in config.toml.
+
+[tts]
+model_id = "eleven_v4"
+language_code = "pl"
+stability = 0.4          # v4 has only Stability and Similarity; lower = more varied delivery
+similarity = 0.8
+max_chunk_chars = 1800   # ElevenLabs recommends <= 2000 characters per dialogue request
+tag_min_confidence = 0.5 # Jev's delivery pick is applied only above this confidence
+
+# Spoken forms. Display text (subtitles) stays untouched; substring match also covers Polish declension.
+[pronounce]
+"AI Futbolu" = "Ej Aj Futbolu"
+"Gyökeres" = "Jekeres"
+"Wålemark" = "Wolemark"
+"Nygren" = "Nigren"
+"Ayari" = "Ajari"
+"Bergvall" = "Bergwal"
+"Frederiksen" = "Frederiksen"
+"Olympiakos" = "Olimpiakos"
+"Crystal Palace" = "Krystal Pelas"
+"Georgson" = "Jorjson"
+
+# Delivery options Jev chooses from per turn. key = option, value = [description for Jev, ElevenLabs audio tag].
+# "neutral" is always available and adds no tag.
+[delivery.Radecki]
+brief = "Host, calm and dry, mildly amused, asks short questions, has pet theories he states with total certainty."
+amused = ["Says it with mild, dry amusement.", "[mildly amused]"]
+curious = ["Asks or probes with real curiosity.", "[curious]"]
+firm = ["Insists on his own theory, firm and certain.", "[firm]"]
+dry = ["Deadpan, matter-of-fact, slightly ironic without meaning to be.", "[dry]"]
+
+[delivery.Kierski]
+brief = "Ex-footballer, warm, animated, confident, a little vain, combative when contradicted."
+emphatic = ["Hammers the point, emphatic and animated.", "[emphatic]"]
+confident = ["Confident, explaining from experience.", "[confident]"]
+indignant = ["Indignant, has been interrupted or contradicted.", "[indignant]"]
+laughing = ["Warm chuckle, enjoying himself.", "[laughs]"]
+
+[delivery."Cieślak"]
+brief = "Young tactical analyst, earnest and precise, slightly defensive around ex-players."
+earnest = ["Earnest and precise, explaining carefully.", "[earnest]"]
+defensive = ["Slightly defensive, feels dismissed.", "[slightly defensive]"]
+irritated = ["Politely irritated when simplified.", "[mildly irritated]"]
+quick = ["Speaks a bit faster, warming to his argument.", "[quickly]"]
+
+[delivery.Rybarczyk]
+brief = "Veteran columnist, calm, courtly, slow and precise, quiet authority, dry humour."
+measured = ["Measured and deliberate, delivering a maxim.", "[measured]"]
+warm = ["Warm and paternal.", "[warm]"]
+slow = ["Slows down for weight, for a supposedly fundamental point.", "[slowly]"]
+dry = ["Dry, gently ironic.", "[dry humour]"]

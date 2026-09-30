@@ -1,0 +1,239 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 832
+PlayResY: 480
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Liberation Sans,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,35,35,22,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.15,Default,,0,0,0,,{\b1}Radecki:{\b0} Dzień dobry państwu, witam w programie\NAI Futbolu.
+Dialogue: 0,0:00:03.15,0:00:08.58,Default,,0,0,0,,{\b1}Radecki:{\b0} Nazywam się Michał Radecki. A ze mną w\Nstudiu są obecni: Robert Kierski, były pomocnik
+Dialogue: 0,0:00:08.58,0:00:13.44,Default,,0,0,0,,{\b1}Radecki:{\b0} i dwukrotny reprezentant Polski, który\Npo drodze miał też epizod we Włoszech.
+Dialogue: 0,0:00:13.44,0:00:14.72,Default,,0,0,0,,{\b1}Kierski:{\b0} Dzień dobry państwu.
+Dialogue: 0,0:00:14.72,0:00:18.61,Default,,0,0,0,,{\b1}Radecki:{\b0} Adrian Cieślak, analityk taktyczny,\Nautor bloga i podcastu,
+Dialogue: 0,0:00:18.61,0:00:20.32,Default,,0,0,0,,{\b1}Radecki:{\b0} a przy okazji kibic Lecha.
+Dialogue: 0,0:00:20.32,0:00:21.20,Default,,0,0,0,,{\b1}Cieślak:{\b0} Dzień dobry.
+Dialogue: 0,0:00:21.20,0:00:25.79,Default,,0,0,0,,{\b1}Radecki:{\b0} I Jerzy Rybarczyk, felietonista, który\Nod ponad czterdziestu lat pracuje w
+Dialogue: 0,0:00:25.79,0:00:27.52,Default,,0,0,0,,{\b1}Radecki:{\b0} gazetach, radiu i telewizji.
+Dialogue: 0,0:00:27.52,0:00:28.80,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Dzień dobry państwu.
+Dialogue: 0,0:00:28.80,0:00:32.77,Default,,0,0,0,,{\b1}Radecki:{\b0} Dobrze, to zaczynamy od Szwecji, bo tam\Nwszystko się rozstrzygnęło.
+Dialogue: 0,0:00:32.77,0:00:37.50,Default,,0,0,0,,{\b1}Radecki:{\b0} Do przerwy było w miarę przyzwoicie,\NSzymański wyrównał w czterdziestej trzeciej
+Dialogue: 0,0:00:37.50,0:00:41.64,Default,,0,0,0,,{\b1}Radecki:{\b0} minucie po akcji, którą rozegrali\Nkombinacyjnie z Zalewskim, a potem w
+Dialogue: 0,0:00:41.64,0:00:45.14,Default,,0,0,0,,{\b1}Radecki:{\b0} sześćdziesiątej czwartej i\Nsiedemdziesiątej drugiej minucie
+Dialogue: 0,0:00:45.14,0:00:46.97,Default,,0,0,0,,{\b1}Radecki:{\b0} Szwecja to po prostu zamknęła —
+Dialogue: 0,0:00:46.97,0:00:50.88,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bo po przerwie przestała istnieć nasza\Nobrona w przejściu, Michale.
+Dialogue: 0,0:00:50.88,0:00:55.44,Default,,0,0,0,,{\b1}Cieślak:{\b0} Pierwsza połowa była poukładana, druga\Nto był już chaos, bo przy stracie piłki
+Dialogue: 0,0:00:55.44,0:00:59.81,Default,,0,0,0,,{\b1}Cieślak:{\b0} zostawialiśmy sobie za duże odległości\Nmiędzy liniami i Szwedzi wchodzili w
+Dialogue: 0,0:00:59.81,0:01:04.78,Default,,0,0,0,,{\b1}Cieślak:{\b0} półprzestrzeń bez opieki. Przy drugiej\Nbramce Ayari dostaje piłkę, Szymański się daje
+Dialogue: 0,0:01:04.78,0:01:08.63,Default,,0,0,0,,{\b1}Cieślak:{\b0} oszukać, a asekuracja wahadła nie\Ndociera — to nie jest przypadek.
+Dialogue: 0,0:01:08.63,0:01:12.83,Default,,0,0,0,,{\b1}Cieślak:{\b0} Dla mnie to jest bardziej problem\Nstrukturalny, bo identyczne mechanizmy
+Dialogue: 0,0:01:12.83,0:01:16.86,Default,,0,0,0,,{\b1}Cieślak:{\b0} widzieliśmy już w marcowym barażu,\Ntylko wtedy mieliśmy szczęście, że
+Dialogue: 0,0:01:16.86,0:01:18.32,Default,,0,0,0,,{\b1}Cieślak:{\b0} nikt tego tak nie ukarał.
+Dialogue: 0,0:01:18.32,0:01:22.29,Default,,0,0,0,,{\b1}Kierski:{\b0} Adrian, wszystko fajnie, tylko zawodnik\Nw meczu tego nie liczy.
+Dialogue: 0,0:01:22.29,0:01:27.33,Default,,0,0,0,,{\b1}Kierski:{\b0} Po przerwie oni nie weszli w tę drugą\Npołowę, bo od gwizdka ich w niej nie było.
+Dialogue: 0,0:01:27.33,0:01:32.75,Default,,0,0,0,,{\b1}Kierski:{\b0} Do przerwy jeden do jednego, Szymański\Nkończy w czterdziestej trzeciej i wygląda to na
+Dialogue: 0,0:01:32.75,0:01:38.05,Default,,0,0,0,,{\b1}Kierski:{\b0} mecz. Potem krótki róg, Ayari zwodzi\NSebastiana w narożniku pola i w sześćdziesiątej
+Dialogue: 0,0:01:38.05,0:01:43.22,Default,,0,0,0,,{\b1}Kierski:{\b0} czwartej jest już pod górkę. Na tym\Npoziomie taki błąd kosztuje, sam zresztą wziął
+Dialogue: 0,0:01:43.22,0:01:47.69,Default,,0,0,0,,{\b1}Kierski:{\b0} za to odpowiedzialność. A w\Nsiedemdziesiątej drugiej Gyökeres jest sam.
+Dialogue: 0,0:01:47.69,0:01:52.23,Default,,0,0,0,,{\b1}Kierski:{\b0} Ja ci powiem jedną rzecz: w polu karnym\Ntrzeba być przy swoim człowieku.
+Dialogue: 0,0:01:52.23,0:01:57.59,Default,,0,0,0,,{\b1}Kierski:{\b0} Jak jeden odpuszcza, bo mu się wydaje,\Nże wahadłowy kryje długi słupek, a ten schodzi
+Dialogue: 0,0:01:57.59,0:02:01.12,Default,,0,0,0,,{\b1}Kierski:{\b0} do środka, to struktury możesz sobie\Nnarysować po meczu.
+Dialogue: 0,0:02:01.12,0:02:05.74,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bolo, ja się z tobą zgadzam co do\Nsamego krycia, tylko pytanie brzmi, dlaczego
+Dialogue: 0,0:02:05.74,0:02:08.82,Default,,0,0,0,,{\b1}Cieślak:{\b0} przy trzeciej bramce Gyökeres jest sam\Nw szesnastce.
+Dialogue: 0,0:02:08.82,0:02:13.79,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bo to nie jest tak, że Wiśniewski sobie\No nim zapomniał — problemem była organizacja
+Dialogue: 0,0:02:13.79,0:02:18.59,Default,,0,0,0,,{\b1}Cieślak:{\b0} przestrzeni, bo przy tym dośrodkowaniu\Ncała linia cofnęła się za głęboko, wahadło
+Dialogue: 0,0:02:18.59,0:02:23.27,Default,,0,0,0,,{\b1}Cieślak:{\b0} zostało wysoko i między stoperem a\Nbocznym sektorem zrobiła się dziura, w którą
+Dialogue: 0,0:02:23.27,0:02:25.70,Default,,0,0,0,,{\b1}Cieślak:{\b0} wjechał najgroźniejszy napastnik rywala\N—
+Dialogue: 0,0:02:25.70,0:02:30.43,Default,,0,0,0,,{\b1}Kierski:{\b0} Adrian, zaczekaj. Możemy mówić o\Nustawieniu, ale ta dziura to skutek, nie
+Dialogue: 0,0:02:30.43,0:02:35.80,Default,,0,0,0,,{\b1}Kierski:{\b0} przyczyna. W siedemdziesiątej drugiej\NGyökeres jest sam, bo pierwszy go odpuścił, a
+Dialogue: 0,0:02:35.80,0:02:41.05,Default,,0,0,0,,{\b1}Kierski:{\b0} drugi tego nie naprawił. Szymański po\Nmeczu powiedział, że jak u nas ktoś popełni
+Dialogue: 0,0:02:41.05,0:02:45.52,Default,,0,0,0,,{\b1}Kierski:{\b0} błąd, to za rzadko kolega obok to\Nkasuje, i w tym golu masz wszystko.
+Dialogue: 0,0:02:45.52,0:02:50.76,Default,,0,0,0,,{\b1}Kierski:{\b0} Walemark wystawia, ich najgroźniejszy\Nnapastnik bierze pustą szesnastkę i kończy.
+Dialogue: 0,0:02:50.76,0:02:56.07,Default,,0,0,0,,{\b1}Kierski:{\b0} Urban mówi, że w przerwie poukładali\Nlewą stronę i w drugiej połowie było inaczej.
+Dialogue: 0,0:02:56.07,0:02:59.44,Default,,0,0,0,,{\b1}Kierski:{\b0} Rozmowa w szatni była. Wejścia w\Npojedynek nie było.
+Dialogue: 0,0:02:59.44,0:03:02.74,Default,,0,0,0,,{\b1}Kierski:{\b0} Na tym poziomie takie podanie się\Nwykorzystuje, oni
+Dialogue: 0,0:03:02.74,0:03:04.88,Default,,0,0,0,,{\b1}Kierski:{\b0} wykorzystali, i mecz się zamknął.
+Dialogue: 0,0:03:04.88,0:03:08.83,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bolo, ale ja właśnie nie mówię o\Npojedynkach, ja mówię o tym, że w
+Dialogue: 0,0:03:08.83,0:03:13.39,Default,,0,0,0,,{\b1}Cieślak:{\b0} siedemdziesiątej drugiej minucie\NGyökeres w ogóle nie powinien być sam w tej
+Dialogue: 0,0:03:13.39,0:03:18.30,Default,,0,0,0,,{\b1}Cieślak:{\b0} strefie, bo przy dośrodkowaniu z boku\Nstoper był ustawiony bokiem, wahadło zostało
+Dialogue: 0,0:03:18.30,0:03:21.11,Default,,0,0,0,,{\b1}Cieślak:{\b0} wysoko i nikt nie zabezpieczył długiego\Nsłupka.
+Dialogue: 0,0:03:21.11,0:03:26.02,Default,,0,0,0,,{\b1}Cieślak:{\b0} Możemy się spierać o krycie, tylko to\Njest konsekwencja tego, jak my się ustawiamy
+Dialogue: 0,0:03:26.02,0:03:30.64,Default,,0,0,0,,{\b1}Cieślak:{\b0} przy stałym fragmencie i przy przejściu\Ndo obrony, a nie braku zaangażowania.
+Dialogue: 0,0:03:30.64,0:03:35.67,Default,,0,0,0,,{\b1}Cieślak:{\b0} I dlatego mówię, że to jest problem\Nstrukturalny: dwa z trzech goli padły po błędach
+Dialogue: 0,0:03:35.67,0:03:40.64,Default,,0,0,0,,{\b1}Cieślak:{\b0} w organizacji przestrzeni, a nie po\Ntym, że ktoś przegrał pojedynek jeden na jeden.
+Dialogue: 0,0:03:40.64,0:03:45.59,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Adrian, kiedyś po prostu mówiło się,\Nżeby ktoś został z tyłu.
+Dialogue: 0,0:03:45.59,0:03:52.24,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Oczywiście masz rację, że odległości\Nbyły złe, a Robert ma rację, że w polu karnym
+Dialogue: 0,0:03:52.24,0:03:55.98,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} ktoś musi wziąć odpowiedzialność za\NGyökeresa.
+Dialogue: 0,0:03:55.98,0:04:02.31,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Tylko dla mnie najważniejsze stało\Nsię wcześniej: Polska po przerwie przestała
+Dialogue: 0,0:04:02.31,0:04:06.04,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} kontrolować tempo i zaczęła jedynie\Nreagować —
+Dialogue: 0,0:04:06.04,0:04:11.59,Default,,0,0,0,,{\b1}Radecki:{\b0} Jerzy, w punkt, kontrola tempa. Ale\Nzostańmy przy tym, co powiedział Robert: rozmowa
+Dialogue: 0,0:04:11.59,0:04:14.76,Default,,0,0,0,,{\b1}Radecki:{\b0} w przerwie była, a wejścia w pojedynek\Nnie było.
+Dialogue: 0,0:04:14.76,0:04:19.65,Default,,0,0,0,,{\b1}Radecki:{\b0} To jest ciekawe, bo wtedy to jest\Nkwestia głowy, a nie tablicy taktycznej.
+Dialogue: 0,0:04:19.65,0:04:24.27,Default,,0,0,0,,{\b1}Radecki:{\b0} Adrian, wybacz, ale trzeci gol,\Nsiedemdziesiąta druga minuta, Gyökeres
+Dialogue: 0,0:04:24.27,0:04:26.12,Default,,0,0,0,,{\b1}Radecki:{\b0} sam, nie potrzebuje rysunku.
+Dialogue: 0,0:04:26.12,0:04:31.24,Default,,0,0,0,,{\b1}Kierski:{\b0} Michał, tu decyduje głowa. W przerwie\Npogadali, lewą stronę poukładali, a w
+Dialogue: 0,0:04:31.24,0:04:37.17,Default,,0,0,0,,{\b1}Kierski:{\b0} siedemdziesiątej drugiej Walemark i tak\Nwystawia Gyökeresa samego, bo jeden odpuścił, a
+Dialogue: 0,0:04:37.17,0:04:42.50,Default,,0,0,0,,{\b1}Kierski:{\b0} drugi tego nie skasował. Na tym\Npoziomie takie podanie się wykorzystuje i mecz
+Dialogue: 0,0:04:42.50,0:04:47.55,Default,,0,0,0,,{\b1}Kierski:{\b0} jest zamknięty. W Gubbio na trening\Nprzychodziłeś, a skarpetki już leżały.
+Dialogue: 0,0:04:47.55,0:04:51.09,Default,,0,0,0,,{\b1}Kierski:{\b0} Nikt tego nie omawiał, tak po prostu\Nbyło ustawione.
+Dialogue: 0,0:04:51.09,0:04:56.35,Default,,0,0,0,,{\b1}Kierski:{\b0} Jak tej organizacji nie masz w nawyku,\Nto rozmowa w szatni zostaje rozmową, a
+Dialogue: 0,0:04:56.35,0:04:59.76,Default,,0,0,0,,{\b1}Kierski:{\b0} najgroźniejszy napastnik dostaje pustą\Nszesnastkę.
+Dialogue: 0,0:04:59.76,0:05:04.02,Default,,0,0,0,,{\b1}Radecki:{\b0} Bolo, głowa głową, ale wróćmy do tego,\Nco mamy na tablicy wyników.
+Dialogue: 0,0:05:04.02,0:05:09.45,Default,,0,0,0,,{\b1}Radecki:{\b0} Trzy do jednego w Szwecji, Polska ma\Njeden punkt i jest trzecia w grupie, a w piątek
+Dialogue: 0,0:05:09.45,0:05:12.49,Default,,0,0,0,,{\b1}Radecki:{\b0} na Narodowym gra z Rumunią, która jest\Nczwarta.
+Dialogue: 0,0:05:12.49,0:05:17.79,Default,,0,0,0,,{\b1}Radecki:{\b0} To jest ciekawe, bo taka szatnia, w\Nktórej po przerwie mówi się o lewej stronie, a
+Dialogue: 0,0:05:17.79,0:05:22.76,Default,,0,0,0,,{\b1}Radecki:{\b0} potem nikt nie kasuje kolegi, nie jest\Nszatnią, w której jest ciągłość pracy.
+Dialogue: 0,0:05:22.76,0:05:28.25,Default,,0,0,0,,{\b1}Radecki:{\b0} Ja mówię o tym od dawna: kultura szatni\Nto nie jest rozmowa w przerwie, tylko nawyk z
+Dialogue: 0,0:05:28.25,0:05:33.87,Default,,0,0,0,,{\b1}Radecki:{\b0} całego tygodnia. Jerzy, dopytam: czy to\Njest wina trenera, czy raczej tego, że piłkarze
+Dialogue: 0,0:05:33.87,0:05:38.33,Default,,0,0,0,,{\b1}Radecki:{\b0} nie potrafią przez dziewięćdziesiąt\Nminut utrzymać tego, co ustalili?
+Dialogue: 0,0:05:38.33,0:05:44.90,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Michale, trener odpowiada za plan,\Nale piłkarze odpowiadają za jego wykonanie —
+Dialogue: 0,0:05:44.90,0:05:49.70,Default,,0,0,0,,{\b1}Radecki:{\b0} Jerzy, ale plan to nie tylko tablica,\Ntylko też to, kogo trener wystawia i kogo
+Dialogue: 0,0:05:49.70,0:05:54.94,Default,,0,0,0,,{\b1}Radecki:{\b0} zmienia. Lewandowski wchodzi dopiero w\Nosiemdziesiątej szóstej minucie, kiedy jest już
+Dialogue: 0,0:05:54.94,0:06:00.17,Default,,0,0,0,,{\b1}Radecki:{\b0} trzy do jednego. Ja tylko dopytam: czy\Nto nie jest moment, w którym plan przestaje być
+Dialogue: 0,0:06:00.17,0:06:02.72,Default,,0,0,0,,{\b1}Radecki:{\b0} planem, a zaczyna być tłumaczeniem\Nwyniku?
+Dialogue: 0,0:06:02.72,0:06:07.30,Default,,0,0,0,,{\b1}Cieślak:{\b0} Michale, a czy my w ogóle mieliśmy w\Ntym meczu strukturę, żeby Lewandowski w
+Dialogue: 0,0:06:07.30,0:06:10.79,Default,,0,0,0,,{\b1}Cieślak:{\b0} osiemdziesiątej szóstej minucie miał z\Nczego dostać piłkę?
+Dialogue: 0,0:06:10.79,0:06:15.19,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bo wtedy już graliśmy w trybie\Nratunkowym, bez organizacji progresji, bez
+Dialogue: 0,0:06:15.19,0:06:20.07,Default,,0,0,0,,{\b1}Cieślak:{\b0} trzeciego zawodnika między liniami,\Ntylko takie wertykalne szarpnięcia do przodu.
+Dialogue: 0,0:06:20.07,0:06:24.76,Default,,0,0,0,,{\b1}Cieślak:{\b0} I to jest clue: to wygląda dobrze na\Npoziomie nazwisk, a gorzej funkcjonalnie.
+Dialogue: 0,0:06:24.76,0:06:29.70,Default,,0,0,0,,{\b1}Cieślak:{\b0} Ja się tym zajmuję już od jakiegoś\Nczasu i u Urbana widać to samo w każdym meczu —
+Dialogue: 0,0:06:29.70,0:06:34.04,Default,,0,0,0,,{\b1}Cieślak:{\b0} dobra pierwsza faza, potem\Ndestabilizuje się druga faza, bo przy stracie
+Dialogue: 0,0:06:34.04,0:06:39.10,Default,,0,0,0,,{\b1}Cieślak:{\b0} piłki cała linia cofa się za głęboko i\Nnikt nie zabezpiecza wejścia w półprzestrzeń.
+Dialogue: 0,0:06:39.10,0:06:43.50,Default,,0,0,0,,{\b1}Cieślak:{\b0} A Rumunia w piątek nie przyjedzie się\Nbronić, tylko poczeka na nasz błąd.
+Dialogue: 0,0:06:43.50,0:06:48.62,Default,,0,0,0,,{\b1}Cieślak:{\b0} I jeśli my znowu wyjdziemy z dostępem\Ndo Bułki zamiast do Zielińskiego, to nie ważne,
+Dialogue: 0,0:06:48.62,0:06:53.68,Default,,0,0,0,,{\b1}Cieślak:{\b0} kto jest z przodu. Musimy rozdzielić\Nintencję od wykonania: intencja była, Szymański
+Dialogue: 0,0:06:53.68,0:06:58.80,Default,,0,0,0,,{\b1}Cieślak:{\b0} z Zalewskim zagrali tę akcję naprawdę\Ndobrze, ale wykonanie drugiej połowy to już nie
+Dialogue: 0,0:06:58.80,0:07:00.00,Default,,0,0,0,,{\b1}Cieślak:{\b0} jest ten sam poziom.
+Dialogue: 0,0:07:00.00,0:07:05.12,Default,,0,0,0,,{\b1}Radecki:{\b0} Bolo, "rozmowa była, a wejścia w\Npojedynek nie było" to mocna teza, ale Adrian ma
+Dialogue: 0,0:07:05.12,0:07:10.24,Default,,0,0,0,,{\b1}Radecki:{\b0} jeden argument, którego nie zbijesz\Nhasłem: dwa gole z trzech padły z ustawienia,
+Dialogue: 0,0:07:10.24,0:07:14.86,Default,,0,0,0,,{\b1}Radecki:{\b0} nie z braku serca. Ja mówię o tym od\Ndawna, że na tym poziomie kondycja i
+Dialogue: 0,0:07:14.86,0:07:20.17,Default,,0,0,0,,{\b1}Radecki:{\b0} koncentracja w ostatnich dwudziestu\Nminutach to jest jedno i to samo, a tej kondycji
+Dialogue: 0,0:07:20.17,0:07:24.03,Default,,0,0,0,,{\b1}Radecki:{\b0} nam brakuje, bo polski piłkarz w górach\Nspędza za mało czasu.
+Dialogue: 0,0:07:24.03,0:07:28.96,Default,,0,0,0,,{\b1}Radecki:{\b0} Wracając do kadry: Rumunia w piątek,\Ndwadzieścia czterdzieści pięć, i pierwsze
+Dialogue: 0,0:07:28.96,0:07:31.87,Default,,0,0,0,,{\b1}Radecki:{\b0} piętnaście, dwadzieścia minut będzie\Nkluczowe.
+Dialogue: 0,0:07:31.87,0:07:36.93,Default,,0,0,0,,{\b1}Radecki:{\b0} Jerzy, czy Urban na tę Rumunię może\Nzmienić ustawienie, czy jest już za późno na
+Dialogue: 0,0:07:36.93,0:07:38.64,Default,,0,0,0,,{\b1}Radecki:{\b0} cokolwiek poza charakterem?
+Dialogue: 0,0:07:38.64,0:07:44.10,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} — Michale, bo właśnie chciałem\Ndokończyć: trener odpowiada również za moment
+Dialogue: 0,0:07:44.10,0:07:50.20,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} reakcji. Jeśli Lewandowski może wejść\Ndopiero pod koniec, to trzeba jasno powiedzieć,
+Dialogue: 0,0:07:50.20,0:07:55.94,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} że nie był gotowy; jeśli był gotowy,\Npowinien pojawić się przy jednym do dwóch —
+Dialogue: 0,0:07:55.94,0:07:58.47,Default,,0,0,0,,{\b1}Kierski:{\b0} Jerzy, przy jednym do dwóch, dokładnie.
+Dialogue: 0,0:07:58.47,0:08:03.72,Default,,0,0,0,,{\b1}Kierski:{\b0} Po golu Ayariego w sześćdziesiątej\Nczwartej ten mecz jeszcze żyje i wtedy wchodzi
+Dialogue: 0,0:08:03.72,0:08:06.71,Default,,0,0,0,,{\b1}Kierski:{\b0} człowiek, który w polu karnym ma być\Nkillerem.
+Dialogue: 0,0:08:06.71,0:08:11.89,Default,,0,0,0,,{\b1}Kierski:{\b0} W osiemdziesiątej ósmej, przy trzy do\Njednego, schodzi Wiśniewski, a Lewandowski
+Dialogue: 0,0:08:11.89,0:08:15.52,Default,,0,0,0,,{\b1}Kierski:{\b0} dostaje ostatnie minuty, kiedy wynik\Njest już zamknięty.
+Dialogue: 0,0:08:15.52,0:08:21.04,Default,,0,0,0,,{\b1}Kierski:{\b0} Urban powiedział wprost, że po trzeciej\Nbramce gra siadła i zmiany poszły pod kolejne
+Dialogue: 0,0:08:21.04,0:08:24.41,Default,,0,0,0,,{\b1}Kierski:{\b0} spotkanie, z okiem na to, kto jak\Nwygląda fizycznie.
+Dialogue: 0,0:08:24.41,0:08:29.20,Default,,0,0,0,,{\b1}Kierski:{\b0} Ja to znam z szatni. Drużyna to czuje\Nod razu: trener pilnuje piątku, więc
+Dialogue: 0,0:08:29.20,0:08:34.39,Default,,0,0,0,,{\b1}Kierski:{\b0} odpowiedzialność za pustą szesnastkę\Nzostaje w rozmowie, a na boisku jej nie ma.
+Dialogue: 0,0:08:34.39,0:08:39.64,Default,,0,0,0,,{\b1}Kierski:{\b0} Na Rumunię linia może być trójka albo\Nczwórka, liczy się, czy przy dwa do jednego
+Dialogue: 0,0:08:39.64,0:08:43.08,Default,,0,0,0,,{\b1}Kierski:{\b0} myślimy o Narodowym, czy już o\Nponiedziałku w Zenicy.
+Dialogue: 0,0:08:43.08,0:08:49.27,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Dokładnie, Robert. I dokończę: z\NRumunią można zmienić ustawienie, ale nie wolno
+Dialogue: 0,0:08:49.27,0:08:55.76,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} zmieniać odpowiedzialności. Charakter\Njest potrzebny, tylko po porażce sam charakter
+Dialogue: 0,0:08:55.76,0:09:02.11,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} to za mało — trzeba jeszcze wiedzieć,\Nkto zabezpiecza lewą stronę i kto reaguje po
+Dialogue: 0,0:09:02.11,0:09:08.22,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} stracie. Urban powinien uprościć\Nskład, postawić na Lewandowskiego od początku,
+Dialogue: 0,0:09:08.22,0:09:11.70,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} jeśli kapitan jest zdrowy, i wygrać\Nten mecz.
+Dialogue: 0,0:09:11.70,0:09:14.87,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Trener ma dwie waluty: zaufanie i\Nwyniki.
+Dialogue: 0,0:09:14.87,0:09:19.12,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Zaufanie jeszcze ma, ale wyniku\Npotrzebuje natychmiast.
+Dialogue: 0,0:09:19.12,0:09:24.48,Default,,0,0,0,,{\b1}Kierski:{\b0} No właśnie, Jerzy. Skład uprościć i\NLewandowskiego dać od pierwszej minuty, jeśli
+Dialogue: 0,0:09:24.48,0:09:29.70,Default,,0,0,0,,{\b1}Kierski:{\b0} jest gotowy. Ktoś musi w tym polu\Nkarnym wziąć odpowiedzialność za kończenie od
+Dialogue: 0,0:09:29.70,0:09:33.94,Default,,0,0,0,,{\b1}Kierski:{\b0} pierwszego gwizdka. Trójka czy czwórka\Nw piątek jest szczegółem.
+Dialogue: 0,0:09:33.94,0:09:38.90,Default,,0,0,0,,{\b1}Kierski:{\b0} Rumunia ma zero punktów i sześć\Nstraconych bramek, przyjedzie na Narodowy z
+Dialogue: 0,0:09:38.90,0:09:43.73,Default,,0,0,0,,{\b1}Kierski:{\b0} niczym do stracenia, więc jak nie\Nwejdziemy w ten mecz od początku, wezmą
+Dialogue: 0,0:09:43.73,0:09:49.08,Default,,0,0,0,,{\b1}Kierski:{\b0} dokładnie tyle, ile im zostawimy.\NUrbana teraz bym nie ruszał, sam powiedział, że
+Dialogue: 0,0:09:49.08,0:09:53.38,Default,,0,0,0,,{\b1}Kierski:{\b0} o rezygnacji nie myśli. Trzeba mieć\Ncierpliwość, ale nie za dużą.
+Dialogue: 0,0:09:53.38,0:09:56.03,Default,,0,0,0,,{\b1}Kierski:{\b0} To jest piąty mecz z rzędu bez\Nwygranej.
+Dialogue: 0,0:09:56.03,0:10:01.26,Default,,0,0,0,,{\b1}Kierski:{\b0} W piątek albo bierzemy trzy punkty i\Ntemat cichnie, albo przed Zenicą rozmowa o
+Dialogue: 0,0:10:01.26,0:10:04.96,Default,,0,0,0,,{\b1}Kierski:{\b0} stołku jest już bardzo konkretna.\NBoisko to zweryfikuje.
+Dialogue: 0,0:10:04.96,0:10:11.26,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Robert ma rację w jednym: Rumunia nie\Nbędzie pytała o nasze problemy, tylko spróbuje
+Dialogue: 0,0:10:11.26,0:10:17.26,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} je wykorzystać. Powiem jedno — Jana\NUrbana dziś bym nie zwalniał, bo przed takim
+Dialogue: 0,0:10:17.26,0:10:22.29,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} meczem zmiana selekcjonera byłaby\Nbardziej gestem niż rozwiązaniem.
+Dialogue: 0,0:10:22.29,0:10:26.19,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Ale cierpliwość w futbolu musi mieć\Ntermin ważności.
+Dialogue: 0,0:10:26.19,0:10:32.26,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Trzy punkty z Rumunią są obowiązkiem,\Na potem w Zenicy trzeba pokazać, że drużyna
+Dialogue: 0,0:10:32.26,0:10:37.81,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} potrafi nie tylko dobrze zacząć, lecz\Ntakże utrzymać porządek po przerwie.
+Dialogue: 0,0:10:37.81,0:10:40.89,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Trener ma dwie waluty: zaufanie i\Nwyniki.
+Dialogue: 0,0:10:40.89,0:10:45.01,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Pierwszej Urban jeszcze trochę\Nposiada, drugiej zaczyna
+Dialogue: 0,0:10:45.01,0:10:47.04,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} mu niebezpiecznie brakować.
+Dialogue: 0,0:10:47.04,0:10:52.13,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bolo, przepraszam, wejdę ci w słowo, bo\Ntu się nam rozjeżdża jedno: czy trójka, czy
+Dialogue: 0,0:10:52.13,0:10:56.85,Default,,0,0,0,,{\b1}Cieślak:{\b0} czwórka to naprawdę nie jest szczegół,\Nale nie dlatego, że jedna jest lepsza.
+Dialogue: 0,0:10:56.85,0:11:01.88,Default,,0,0,0,,{\b1}Cieślak:{\b0} Tylko dlatego, że my mamy problem z\Ntym, jak ta formacja funkcjonuje w przejściu i
+Dialogue: 0,0:11:01.88,0:11:06.78,Default,,0,0,0,,{\b1}Cieślak:{\b0} przy stałych fragmentach. Przy drugiej\Nbramce, w sześćdziesiątej czwartej, Ayari
+Dialogue: 0,0:11:06.78,0:11:11.07,Default,,0,0,0,,{\b1}Cieślak:{\b0} dostaje piłkę po krótkim rozegraniu\Nrożnego, a asekuracja nie dociera.
+Dialogue: 0,0:11:11.07,0:11:16.10,Default,,0,0,0,,{\b1}Cieślak:{\b0} Przy trzeciej, w siedemdziesiątej\Ndrugiej, Gyökeres jest sam, bo linia cofnęła się
+Dialogue: 0,0:11:16.10,0:11:18.31,Default,,0,0,0,,{\b1}Cieślak:{\b0} za głęboko i wahadło zostało wysoko.
+Dialogue: 0,0:11:18.31,0:11:22.66,Default,,0,0,0,,{\b1}Cieślak:{\b0} To się pojawiało już w marcu, tylko\Nwtedy Szwecja tego tak nie ukarała.
+Dialogue: 0,0:11:22.66,0:11:27.45,Default,,0,0,0,,{\b1}Cieślak:{\b0} I dlatego ja bym tego nie sprowadzał\Ntylko do tego, czy Lewandowski wyjdzie od
+Dialogue: 0,0:11:27.45,0:11:32.35,Default,,0,0,0,,{\b1}Cieślak:{\b0} pierwszej minuty. Sam Szymański po\Nmeczu powiedział, że problem jest w wejściu w
+Dialogue: 0,0:11:32.35,0:11:35.48,Default,,0,0,0,,{\b1}Cieślak:{\b0} jedną albo drugą połowę, a nie w\Nobecności Roberta.
+Dialogue: 0,0:11:35.48,0:11:40.50,Default,,0,0,0,,{\b1}Cieślak:{\b0} Jeśli nie zbudujemy progresji przez\Npółprzestrzeń i trzeciego zawodnika, to Robert
+Dialogue: 0,0:11:40.50,0:11:44.80,Default,,0,0,0,,{\b1}Cieślak:{\b0} od pierwszej minuty będzie tylko dłużej\Nstał na tej pustej szesnastce.
+Dialogue: 0,0:11:44.80,0:11:48.11,Default,,0,0,0,,{\b1}Cieślak:{\b0} Uproszczenie składu to nie jest plan,\Nto jest reakcja.
+Dialogue: 0,0:11:48.11,0:11:50.56,Default,,0,0,0,,{\b1}Cieślak:{\b0} Musimy rozdzielić intencję od\Nwykonania.
+Dialogue: 0,0:11:50.56,0:11:55.63,Default,,0,0,0,,{\b1}Radecki:{\b0} Adrian, wejdę ci w słowo, bo mówisz, że\Nuproszczenie składu to reakcja, a nie plan.
+Dialogue: 0,0:11:55.63,0:12:00.75,Default,,0,0,0,,{\b1}Radecki:{\b0} Ale w piątek na Narodowym reakcja jest\Nplanem, skoro po Szwecji i pięciu meczach bez
+Dialogue: 0,0:12:00.75,0:12:04.72,Default,,0,0,0,,{\b1}Radecki:{\b0} wygranej nikt nie da nam czasu na\Nprogresję przez półprzestrzeń —
+Dialogue: 0,0:12:04.72,0:12:09.47,Default,,0,0,0,,{\b1}Cieślak:{\b0} Michale, nie, nie zgodzę się, bo\Nnazywanie reakcji planem to jest dokładnie ten
+Dialogue: 0,0:12:09.47,0:12:11.57,Default,,0,0,0,,{\b1}Cieślak:{\b0} skrót, który potem wraca na boisku.
+Dialogue: 0,0:12:11.57,0:12:16.74,Default,,0,0,0,,{\b1}Cieślak:{\b0} Ja rozumiem, że po pięciu meczach bez\Nwygranej kibic chce, żeby ktoś po prostu wyszedł
+Dialogue: 0,0:12:16.74,0:12:21.84,Default,,0,0,0,,{\b1}Cieślak:{\b0} i wygrał, ale my nie mamy problemu z\Ntym, że brakuje nam charakteru — my mamy problem
+Dialogue: 0,0:12:21.84,0:12:26.65,Default,,0,0,0,,{\b1}Cieślak:{\b0} z tym, jak wygląda nasze wyjście z\Npiłką i jak wygląda nasza obrona w przejściu.
+Dialogue: 0,0:12:26.65,0:12:31.16,Default,,0,0,0,,{\b1}Cieślak:{\b0} I tutaj ważny jest kontekst: Rumunia\Nprzyjedzie z zerem punktów i sześcioma
+Dialogue: 0,0:12:31.16,0:12:36.08,Default,,0,0,0,,{\b1}Cieślak:{\b0} straconymi bramkami, więc oni nie będą\Nnas atakować, oni będą czekać na nasz błąd,
+Dialogue: 0,0:12:36.08,0:12:38.79,Default,,0,0,0,,{\b1}Cieślak:{\b0} dokładnie tam, gdzie my go zawsze\Npopełniamy.
+Dialogue: 0,0:12:38.79,0:12:43.59,Default,,0,0,0,,{\b1}Cieślak:{\b0} Jeśli my wyjdziemy na Narodowym bez\Norganizacji progresji i znowu będziemy grali
+Dialogue: 0,0:12:43.59,0:12:47.20,Default,,0,0,0,,{\b1}Cieślak:{\b0} długą piłką do Roberta, to nie wygramy\Ntego meczu samą wolą.
+Dialogue: 0,0:12:47.20,0:12:52.19,Default,,0,0,0,,{\b1}Cieślak:{\b0} Uproszczenie składu może być elementem,\Nale nie może być całym pomysłem, bo wtedy w
+Dialogue: 0,0:12:52.19,0:12:57.35,Default,,0,0,0,,{\b1}Cieślak:{\b0} sześćdziesiątej minucie znowu będziemy\Nmieli te same odległości między liniami i znowu
+Dialogue: 0,0:12:57.35,0:12:59.22,Default,,0,0,0,,{\b1}Cieślak:{\b0} ktoś zostanie sam w szesnastce.
+Dialogue: 0,0:12:59.22,0:13:04.54,Default,,0,0,0,,{\b1}Radecki:{\b0} Adrian, nie zgadzam się. Do piątku są\Ntrzy dni, więc progresji przez półprzestrzeń się
+Dialogue: 0,0:13:04.54,0:13:09.74,Default,,0,0,0,,{\b1}Radecki:{\b0} nie zbuduje. Zbuduje się to, co jest w\Nnawyku, a nawyk buduje się tygodniami, nie na
+Dialogue: 0,0:13:09.74,0:13:15.06,Default,,0,0,0,,{\b1}Radecki:{\b0} jednym treningu przed Rumunią. Dlatego\Nw piątek reakcja jest planem, a strukturę Urban
+Dialogue: 0,0:13:15.06,0:13:19.64,Default,,0,0,0,,{\b1}Radecki:{\b0} będzie poprawiał przez listopad. Trzeba\Nmieć cierpliwość, ale nie za dużą.
+Dialogue: 0,0:13:19.64,0:13:24.51,Default,,0,0,0,,{\b1}Cieślak:{\b0} Nie, Michale, tutaj się nie zgodzę, bo\Nto jest dokładnie odwrotne rozumowanie.
+Dialogue: 0,0:13:24.51,0:13:29.63,Default,,0,0,0,,{\b1}Cieślak:{\b0} Trzy dni nie wystarczą, żeby zbudować\Natak pozycyjny, ale wystarczą, żeby poprawić
+Dialogue: 0,0:13:29.63,0:13:33.93,Default,,0,0,0,,{\b1}Cieślak:{\b0} obronę w przejściu i stałe fragmenty, a\Nto nam zabrało mecz w Solnie.
+Dialogue: 0,0:13:33.93,0:13:36.68,Default,,0,0,0,,{\b1}Cieślak:{\b0} Ja bym tego nie sprowadzał tylko do\Nmentalu.
+Dialogue: 0,0:13:36.68,0:13:42.05,Default,,0,0,0,,{\b1}Cieślak:{\b0} Przy drugiej bramce Ayari dostaje piłkę\Npo krótkim rożnym, przy trzeciej Gyökeres jest
+Dialogue: 0,0:13:42.05,0:13:47.10,Default,,0,0,0,,{\b1}Cieślak:{\b0} sam w szesnastce — to nie są rzeczy,\Nktóre wymagają listopada, tylko decyzji, kto
+Dialogue: 0,0:13:47.10,0:13:50.16,Default,,0,0,0,,{\b1}Cieślak:{\b0} pilnuje długiego słupka i kto asekuruje\Nwahadło —
+Dialogue: 0,0:13:50.16,0:13:54.21,Default,,0,0,0,,{\b1}Kierski:{\b0} Adrian, no właśnie, decyzja, i na tym\Nsię twoja tablica kończy.
+Dialogue: 0,0:13:54.21,0:13:59.68,Default,,0,0,0,,{\b1}Kierski:{\b0} Słuchaj. Kto pilnuje długiego słupka,\Nto nie jest projekt na listopad i nie jest nowa
+Dialogue: 0,0:13:59.68,0:14:04.83,Default,,0,0,0,,{\b1}Kierski:{\b0} drużyna na trzy dni. To jest jedno\Nzdanie przed wyjściem na murawę i potem ktoś,
+Dialogue: 0,0:14:04.83,0:14:09.91,Default,,0,0,0,,{\b1}Kierski:{\b0} kto tego zdania nie odpuszcza.\NWiśniewski sam powiedział, że świadomie odpuścił
+Dialogue: 0,0:14:09.91,0:14:14.80,Default,,0,0,0,,{\b1}Kierski:{\b0} Gyökeresa, bo wahadłowy miał kryć długi\Nsłupek, a tamten schodził do środka.
+Dialogue: 0,0:14:14.80,0:14:17.11,Default,,0,0,0,,{\b1}Kierski:{\b0} Pozycje były, porozumienia nie było.
+Dialogue: 0,0:14:17.11,0:14:21.62,Default,,0,0,0,,{\b1}Kierski:{\b0} W siedemdziesiątej drugiej Walemark\Nwystawia i ich napastnik jest sam.
+Dialogue: 0,0:14:21.62,0:14:27.02,Default,,0,0,0,,{\b1}Kierski:{\b0} W piątek Rumunia przyjedzie z zerem\Npunktów i sześcioma straconymi bramkami i weźmie
+Dialogue: 0,0:14:27.02,0:14:30.82,Default,,0,0,0,,{\b1}Kierski:{\b0} dokładnie tyle, ile znowu zostawimy\Nprzy stałym fragmencie.
+Dialogue: 0,0:14:30.82,0:14:34.61,Default,,0,0,0,,{\b1}Kierski:{\b0} Wchodzimy w mecz od pierwszej minuty,\Nkażdy bierze swojego.
+Dialogue: 0,0:14:34.61,0:14:38.73,Default,,0,0,0,,{\b1}Kierski:{\b0} Resztę Urban może sobie poprawiać do\Nlistopada, byle w piątek ta
+Dialogue: 0,0:14:38.73,0:14:40.40,Default,,0,0,0,,{\b1}Kierski:{\b0} szesnastka nie była pusta.
+Dialogue: 0,0:14:40.40,0:14:44.47,Default,,0,0,0,,{\b1}Radecki:{\b0} Panowie, zbliżamy się do końca, mamy\Njeszcze jakieś dwie minuty.
+Dialogue: 0,0:14:44.47,0:14:49.67,Default,,0,0,0,,{\b1}Radecki:{\b0} Zanim je wykorzystamy, jedno zdanie ode\Nmnie: Adrian ma rację, że dwa gole padły z
+Dialogue: 0,0:14:49.67,0:14:54.88,Default,,0,0,0,,{\b1}Radecki:{\b0} ustawienia, Robert ma rację, że długi\Nsłupek to jedno zdanie przed meczem, i ja to
+Dialogue: 0,0:14:54.88,0:15:00.09,Default,,0,0,0,,{\b1}Radecki:{\b0} wszystko mówię od dawna, bo bez nawyku\Nz całego tygodnia żadna tablica nie działa.
+Dialogue: 0,0:15:00.09,0:15:04.60,Default,,0,0,0,,{\b1}Radecki:{\b0} Jerzy, ty pierwszy na ostatnie słowo:\NUrban po Rumunii zostaje czy nie?
+Dialogue: 0,0:15:04.60,0:15:09.74,Default,,0,0,0,,{\b1}Kierski:{\b0} Michał, zostawić. W środę nie zwalniasz\Nselekcjonera, skoro w piątek o dwudziestej
+Dialogue: 0,0:15:09.74,0:15:14.26,Default,,0,0,0,,{\b1}Kierski:{\b0} czterdzieści pięć wychodzisz na\NNarodowy po trzy punkty z Rumunii, która
+Dialogue: 0,0:15:14.26,0:15:17.02,Default,,0,0,0,,{\b1}Kierski:{\b0} przyjeżdża z zerem i z sześcioma\Nstraconymi.
+Dialogue: 0,0:15:17.02,0:15:21.47,Default,,0,0,0,,{\b1}Kierski:{\b0} Urban powiedział wprost, że o\Nrezygnacji nie myśli, i ja bym go dziś do
+Dialogue: 0,0:15:21.47,0:15:24.92,Default,,0,0,0,,{\b1}Kierski:{\b0} wyjścia nie poganiał: piąty mecz bez\Nwygranej boli, ale
+Dialogue: 0,0:15:24.92,0:15:26.80,Default,,0,0,0,,{\b1}Kierski:{\b0} stołek tej bramki nie wybroni.
+Dialogue: 0,0:15:26.80,0:15:32.67,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Urban powinien zostać, bo przed\NRumunią zmiana byłaby tylko nerwowym gestem, a
+Dialogue: 0,0:15:32.67,0:15:38.62,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} nie naprawą drużyny. Ale powiem\Njedno: jeśli nie wygra z Rumunią i nie pokaże w
+Dialogue: 0,0:15:38.62,0:15:44.19,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} Zenicy, że potrafi uporządkować\Nobronę, zaufanie przestanie wystarczać, bo
+Dialogue: 0,0:15:44.19,0:15:46.98,Default,,0,0,0,,{\b1}Rybarczyk:{\b0} selekcjonera ostatecznie broni wynik.
+Dialogue: 0,0:15:46.98,0:15:52.45,Default,,0,0,0,,{\b1}Cieślak:{\b0} Zostawić, Jerzy, ale nie z tego powodu,\Nże wszystko gra — tylko dlatego, że zwolnienie
+Dialogue: 0,0:15:52.45,0:15:57.60,Default,,0,0,0,,{\b1}Cieślak:{\b0} go w środku zgrupowania nie zmieni ani\Njednego ustawienia przy stałym fragmencie.
+Dialogue: 0,0:15:57.60,0:16:02.19,Default,,0,0,0,,{\b1}Cieślak:{\b0} Bolo ma rację, że długi słupek to jedno\Nzdanie przed wyjściem na murawę,
+Dialogue: 0,0:16:02.19,0:16:03.84,Default,,0,0,0,,{\b1}Cieślak:{\b0} a nie projekt na listopad.
+Dialogue: 0,0:16:03.84,0:16:09.34,Default,,0,0,0,,{\b1}Radecki:{\b0} Dobrze, to zamykamy. Jerzy i Robert\Nmówią: zostawić, Adrian też, więc w tym panelu
+Dialogue: 0,0:16:09.34,0:16:12.30,Default,,0,0,0,,{\b1}Radecki:{\b0} jesteśmy zgodni, choć każdy z innego\Npowodu.
+Dialogue: 0,0:16:12.30,0:16:17.73,Default,,0,0,0,,{\b1}Radecki:{\b0} Ja dodam jedno: Urbana ocenimy po\NRumunii i po Zenicy, bo w przerwie na kadrę nie
+Dialogue: 0,0:16:17.73,0:16:23.57,Default,,0,0,0,,{\b1}Radecki:{\b0} zbuduje się ani progresji, ani kondycji\Nz gór, a te dwa mecze pokażą, czy ta drużyna ma
+Dialogue: 0,0:16:23.57,0:16:29.14,Default,,0,0,0,,{\b1}Radecki:{\b0} nawyk, czy tylko intencję. Piątek,\Ndwudziesta czterdzieści pięć, Narodowy, pierwsze
+Dialogue: 0,0:16:29.14,0:16:31.36,Default,,0,0,0,,{\b1}Radecki:{\b0} piętnaście minut będzie kluczowe.

@@ -1,0 +1,10 @@
+[project]
+name = "ai-futbolu"
+version = "0.1.0"
+license = "MIT-0"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.22.0",
+    "python-dotenv>=1.2.3",
+    "typesafe-sdk>=0.7.2",
+]
